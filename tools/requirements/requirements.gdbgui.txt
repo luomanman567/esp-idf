@@ -3,3 +3,8 @@
 
 # gdbgui is not supported on Python 3.11. See https://github.com/cs01/gdbgui/issues/447
 gdbgui; python_version < "3.11"
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
+gevent>=23.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
