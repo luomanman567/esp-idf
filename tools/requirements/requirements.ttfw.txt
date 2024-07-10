@@ -27,3 +27,4 @@ protobuf
 
 # tools/test_apps/system/monitor_ide_integration
 SimpleWebSocketServer
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
