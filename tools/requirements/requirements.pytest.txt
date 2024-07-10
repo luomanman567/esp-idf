@@ -27,3 +27,4 @@ pyecharts
 
 # for twai tests, communicate with socket can device (e.g. Canable)
 python-can
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
