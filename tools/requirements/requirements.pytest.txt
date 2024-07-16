@@ -27,3 +27,4 @@ pyecharts
 
 # for twai tests, communicate with socket can device (e.g. Canable)
 python-can
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
